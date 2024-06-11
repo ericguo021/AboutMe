@@ -13,7 +13,7 @@ function sendEmail(name, email, message) {
     }).then(
         response => {
             console.log('Email send response:', response);
-            alert(response);
+            alert('Thank you for your message. I will contact you soon.');
         }
     ).catch(
         error => {
