@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/myself.jpeg" alt="Eric Guo" id="profile-img">
+        <h1>ERIC GUO</h1>
+        <p>Smart Problem Solver | Developer</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p id="about1">I’m passionate about leveraging technology to drive impactful solutions and address complex business challenges. 
+        <p>As a problem solver and software developer, I thrive on developing innovative software that can translate into real-world applications.</p>
+
+        <p>I enjoy working on cutting-edge projects, constantly pushing the boundaries of what's possible with software development and data science. My goal is to create solutions that not only advance the field but also have a tangible, positive impact on our everyday lives.</p>
+
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <ul>
+            <li><a href="https://ericguo021.github.io/Website_CCBA/" >WebPage Design: CCBA</a></li>
+            <li><a href="https://ericguo021.github.io/Website_CNET/" >WebPage Design: CNET</a></li>
+            <li><a href="https://ericguo021.github.io/weather/" >WebApp: Current Weather</a></li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <link rel="stylesheet" href="js/script.js">
+        <form action="#" id="form1" onsubmit="return handleFormSubmit(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="idName" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="idEmail" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="idMessage" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
